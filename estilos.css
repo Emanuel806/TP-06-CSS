@@ -1,0 +1,63 @@
+/* Estilos para la página web */
+body {  
+    background-color: #39CCED;  
+    font-size: 16px;
+}
+h2 {  
+    font-size: 36px;  
+    color: #5139ED;
+}
+p {
+    font-size: medium;
+    color: #395AED;
+}       
+.encabezado {
+    color: #395FED;
+    text-align: center;  
+    text-transform: uppercase;  
+    font-weight: bold;  
+    font-size: 42px;
+
+}
+.parrafo {
+    text-align: justify;  
+    text-transform: capitalize;  
+    font-size: 24px;
+
+}
+#fondo {  
+    background-color: #39EDED; /* modificar el color a elección */
+}
+p a {
+    color: #ED39D0;  
+    text-decoration: none;
+}
+.font-weight {
+    font-weight: 900;
+}
+.font-size {
+    font-size: x-large;
+}
+.font-style {
+    font-style: oblique;
+}
+.font-family {
+    font-family: Georgia, serif;
+}
+.text-align {
+    text-align: end;
+}
+.text-decoration {
+    text-decoration: green wavy underline;;
+}
+.text-transform {
+    text-transform: uppercase;
+}
+.letter-spacing {
+    letter-spacing: .2rem;
+}
+.line-height {
+    line-height: 2.5;
+}
+
+    
