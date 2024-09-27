@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura y CSS</title>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+        header nav ul {
+            list-style: none;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            
+            
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        
+        header nav ul li {
+            display: inline; /*En una sola linea */
+            margin: 40px;
+            
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1.5em;
+                color: coral;
+                
+            }
+        }
+
+        header {
+            background-color: #463239;
+            color: #EEE5E9;
+            text-align: center;
+        }
+
+
+        body {
+            background-color: #BDB246;
+            margin: 0;
+
+            h2 {
+                text-align: center;
+                font-size: 2em;
+                color: #F0544F;
+                background-color: transparent;
+                margin-top: 10px;
+            
+            }
+        }
+
+        footer {
+            background: rgb(255,255,255);
+            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,222,213,1) 45%, rgba(255,57,0,1) 70%, rgba(0,0,0,1) 100%);
+            padding: 10px;
+
+            p {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bolder;
+                font-style: italic;
+                margin: 0;
+                color: black;
+            }
+        }
+        footer ul {
+            list-style: none;
+            
+            li {
+                display: inline;
+            }
+        }
+
+        .section1-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section2-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section2-img2 {
+            display: flex;
+            justify-content: center;
+        }
+        .section3-img {
+            display: flex;
+            justify-content: center;
+        }
+        .section4-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .special-text {
+            color: #EEE5E9;
+        }
+
+        section {
+            padding: 10px;
+        }
+
+        #seccion1 {
+            background: rgb(70,50,57);
+            background: linear-gradient(0deg, rgba(70,50,57,1) 0%, rgba(255,255,255,1) 100%); 
+        }
+
+        #seccion2 {
+            background: rgb(70,50,57);
+            background: linear-gradient(0deg, rgba(70,50,57,1) 0%, rgba(255,255,255,1) 100%); 
+        }
+
+        #seccion3 {
+            background: rgb(70,50,57);
+            background: linear-gradient(0deg, rgba(70,50,57,1) 0%, rgba(255,189,0,1) 0%, rgba(255,255,255,1) 100%); 
+        }
+
+        #seccion4{
+            background-color: white;
+            margin-bottom: 0;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>La Vida del Guionista</h1>
+        <nav>
+            <ul>
+                <li><a href="Página Web.html">Inicio</a></li>
+                <li><a href="#seccion1">¿Qué es lo que hace un guionista?</a></li>
+                <li><a href="#seccion2">¿En qué consiste un guión?</a></li>
+                <li><a href="#seccion3">Un estilo de vida</a></li>
+                <li><a href="#seccion4">Algunos guionistas famosos</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <!--Parte Principal-->
+    <main>
+       <section id="seccion1">
+            <h2>¿Qué es lo que hace un guionista?</h2>
+            <p>Un guionista es la persona que se encarga de crear contenidos audiovisuales y plasmar estos contenidos a través de la escritura del guión. Entre las funciones de esta ocupación encontramos imaginar y describir personajes, tramas, escenarios y situaciones, diseñar diálogos y, en definitiva, crear un contenido atractivo para productos audiovisuales.</p>
+            <p>Sus tareas consisten en:</p>
+            <ul>
+                <li>Investigar las características del público al que se dirigirá el programa y los contenidos del tema que utilizará en el guión.</li>
+                <li>Analizar los requisitos y las peticiones de producción (en caso de encargo) para la construcción de un relato audiovisual.</li>
+                <li>Detectar el potencial narrativo de las diferentes fuentes que se pueden utilizar en la escritura audiovisual y plantear posibilidades de adaptación.</li>
+                <li>Realizar la estructura del guión, escaleta o sinopsis.</li>
+                <li>Redactar contenidos audiovisuales en general: construcción de narraciones y relatos para el cine, la televisión o la publicidad.</li>
+                <li>Realizar los cambios necesarios en el guión a partir de estas sugerencias.</li>
+                <li>Realizar reescrituras y ser capaz de renunciar a partes del guión que el propio guionista puede considerar indispensables pero que producción o realización consideren prescindibles.</li>
+                <li>Adaptar guiones a novelas, obras de teatro o musicales para cine o televisión.</li>
+                <li>Redacción del cuaderno con las sugerencias de audio y vídeo para la realización y el diseño audiovisual (secuencias, escenas, planos, movimientos de cámara y el montaje).</li>
+
+            </ul>
+            <div class="section1-img">
+                <img src="assets/aerial-view-man-typing-retro-typewriter.jpg" alt="" width="500px">
+                <img src="assets/front-view-woman-desk-posing-with-clapperboard.jpg" alt="" width="550px">
+
+            </div>
+            <!--Estructura-->
+            <!--Título-->
+            <!--Párrafos-->
+            <!--Imágenes-->
+            <!--Tablas o listas-->
+       </section>
+       <section id="seccion2">
+            <h2>¿En qué consiste un guión?</h2>
+            <div class="section2-img">
+                <img src="assets/Guión.jpg" alt="" width="1050px">
+            </div>
+            <div class="special-text">
+                <p>Un guion cinematográfico es un texto escrito concebido desde su origen para transformarse en imágenes. De cualquier modo, el guion se halla más próximo a la imagen que a la forma escrita.</p>
+                <h3>Su Estructura:</h3>
+                <dl>
+                    <dt><strong>Primer acto o planteamiento.</strong></dt>
+                    <dd>
+                    El guionista sitúa al espectador para hacerle entender de QUÉ trata la historia, QUIÉN la protagoniza y CÚAL es su premisa dramática. En la primera fase hay que enganchar a la audiencia; como cualquier espectador conoce, con mucha frecuencia los iniciales minutos de una película suelen determinar si nos gusta o no o, al menos, si nos interesa o no. <br>
+
+                    Los métodos de inicio de un relato audiovisual varían. Podemos encontrar emocionantes secuencias iniciales repletas de acción, presentaciones peculiares de los personajes, o simplemente la exposición de la situación y los personajes a un ritmo cadencioso. <br>
+                    
+                    El final del primer acto viene determinado por el primer nudo de la trama, un hecho que hace avanzar la historia mediante un giro, una situación relacionada directamente con la historia que la dota de una nueva perspectiva y obliga al protagonista a seguir adelante. <br>
+                    </dd>
+                    <dt><strong>Segundo acto o confrontación</strong></dt>
+                    <dd>
+                    Se basa en el conflicto personal o psicológico y los obstáculos que lo producen. No hay historia si no hay impedimentos que interrumpan al protagonista alcanzar su meta. Estas dificultades componen la acción dramática de la historia. Lo que se denomina trama o desarrollo. El personaje tiene definido su objetivo y el espectador le acompañará en su trayecto para alcanzarlo.
+                    </dd>
+                    <dt><strong>Tercer acto o resolución</strong></dt>
+                    <dd>
+                    El final de la historia está determinado desde un inicio por la causalidad narrativa. En otras palabras: el final debe completar y explicar la historia para dotarla de unidad. Si el guion es un trayecto, el guionista debe saber cuál es la estación de destino. Si se sabe a dónde se va, se puede elegir el modo. En caso contrario el escritor puede terminar deambulando sin rumbo y no llegar a puerto. El final ha de estar relacionado con el inicio pero dotándolo de otra perspectiva. <br>
+
+                    La mejor opción es el final cerrado, es la más habitual porque satisface mejor las expectativas creadas. La narración audiovisual es, ante todo, un negocio y para mantenerlo hay que complacer al público, no ofenderle o decepcionarle. Sin embargo, cada vez son más frecuentes los finales abiertos que dejan al espectador completar la propia historia. <br>
+                    </dd>
+                </dl>
+            </div>
+            <div class="section2-img2">
+                <img src="assets/Escribiendo un guión.avif" alt="" width="650px">
+            </div>
+            <!---->
+       </section>
+       <section id="seccion3">
+            <h2>Es mucho más que un trabajo, es un estilo de vida.</h2>
+            <p>Ser guionista implica mucho más que solo escribir guiones. Según Tatiana Mereñuk, reconocida guionista se desempeña desde el 2000 como directora de contenidos y guionista en diferentes productoras audiovisuales y para producciones de distintos canales de televisión, en una entrevista en la que le preguntaron: ¿Qué tiene que tener un guionista para ser un “buen guionista”?, esto fue lo que respondió:</p>
+            <p><em>"Primero vocación, mucho deseo de contar historias y formación específica en el campo audiovisual. Ser una persona de que cada cosa que ve en la vida pueda armar un relato o una historia. La idea es poder generar expectativa y darle matices a esos relatos. Es muy importante tener una formación audiovisual amplia ya que somos los primeros que vemos la película. Los guionistas trabajamos con la imagen, no con el lenguaje."</em></p>
+            <div class="section3-img">
+                <img src="assets/Tatiana.jpg" alt="" width="400px">
+            </div>
+       </section>
+       <section id="seccion4">
+            <h2>Algunos guionistas famosos...</h2>
+            <div class="section4-img">
+                <img src="assets/manos-escribiendo-maquina-escribir-teclado-clasico-retro-antiguo_53876-163252.jpg" alt="" width="650px">
+            </div>
+            <dl>
+                <dt><strong>Woody Allen</strong> <img src="assets/Woody-Allen.webp" alt="" width="150px"></dt>
+                <dd>
+                    A los dieciséis años, Woody Allen comienza a enviar historias de humor a diferentes periódicos. Después de escribir varias obras para la televisión y numerosas crónicas para revistas como Playboy, en 1961 decide subirse al escenario. Y pronto empieza a recorrer algunos cabarets y platós de televisión. <br>
+                    El productor Charles K. Feldman se fija en él y le ofrece la posibilidad de escribir el guión de ‘¿Qué tal, Pussycat?’ (1965) y un año más tarde participa en el de ‘Casino Royale’. A partir de ahí despegaría su carrera profesional más reconocida por dirección. Pero no olvidemos que la gran mayoría de sus obras son escritas por él, además de colaborar escribiendo guiones para otros realizadores como Jean-Luc Godard y Paul Mazursky. <br>
+                </dd>
+                <dt><strong>Quentin Tarantino</strong> <img src="assets/quentin-tarantino.webp" alt="" width="150px"></dt>
+                <dd>
+                    Quentin Tarantino pasó su juventud en un suburbio de Los Ángeles donde su pasión por el cine le llevó a trabajar en un video. Fue allí donde escribió sus dos primeros guiones: ‘Asesinos natos‘ y ‘Amor A Quemarropa‘. <br>
+                    Con el dinero que sacó de su venta financió su primera película, ‘Reservoir dogs’, que contó con Harvey Keitel desde el primer momento debido a que éste quedó encantado con el guión. En 1994, el estadounidense rueda ‘Pulp Fiction’, que rápidamente se convirtió en una película de culto para millones de espectadores y le ganó la Palma De Oro en Cannes consolidándose como uno de los mejores realizadores cinematográficos. <br>
+                </dd>
+                <dt><strong>Billy Wilder</strong> <img src="assets/WILDER.webp" alt="" width="150px"></dt>
+                <dd>
+                    Antes de ser director, Billy Wilder trabajó muchos años como guionista. Contó muchas veces que se hizo director para evitar que otros destrozaran su obra. Cierto o no, si nunca se hubiese convertido en director, aún sería considerado hoy día como uno de los más grandes guionistas de los años treinta y cuarenta. <br>
+                    Periodista de bastante prestigio en la Alemania de los años veinte, viajó a Estados Unidos una vez Hitler se hizo con el poder. Buscando siempre la oportunidad de convertirse en director, aprendiendo todo lo que podía, pudo escribir guiones de la brillantez y el ingenio de ‘La octava mujer de Barba Azul’ y ‘Ninotchka’, ambas dirigidas por Ernst Lubitsch en 1938 y 1939, de quien era admirador y amigo. Pero también guiones para Raoul Walsh o Mitchell Leisen. Y para otro director a quien tanto admiraba, Howard Hawks, escribió el estupendo libreto de ‘Bola de fuego’ (1941). <br>
+                </dd>
+                <dt><strong>Leigh Brackett</strong> <img src="assets/Leigh Bracketjpg.jpg" alt="" width="100px"></dt>
+                <dd>
+                    Escribió algunos de los mejores westerns de la historia, concretamente para el gran Howard Hawks. <br>
+                    Novelista de éxito en el género de la ciencia ficción, Hawks insistió en que fuera ella quien escribiera ‘El sueño eterno’ (1946) junto nada menos que William Faulkner. Pese a este éxito, se mantuvo alejada del cine muchos años, hasta que volvió con Hawks y le regaló los guiones de ‘Río Bravo’ (1959), ‘El Dorado’ (1966) y ‘Río Lobo’ (1970), además de ‘Hatari!’ (1962). Por si fuera poco, es la responsable de la primera versión del guión de ‘El imperio contraataca’ (Irvin Kershner, 1980), que entregó poco antes de morir. <br>
+                </dd>
+                <dt><strong>Charlie Kaufman</strong> <img src="assets/Charlie-Kaufman.webp" alt="" width="150px"></dt>
+                <dd>
+                    Charlie Kaufman no es de los guionistas más originales y personales en muchos años de cine. <br>
+
+                    Surgió a finales de los noventa con ‘Cómo ser John Malkovich’ (Spike Jonze, 1999) y conoció varios años en que cada guión suyo era mejor y más sorprendente, hasta el que casi con toda seguridad sea su obra cumbre, ‘Olvídate de mí’ (‘Eternal Sunshine of the Spotless Mind’, Michel Gondry, 2004), que le valió el Oscar. Finalmente se hizo director con ‘Synecdoche, New York’ (2008). En los últimos años parece algo menos activo. Esperemos que no se haya agotado su genio. <br>
+                </dd>
+            </dl>
+       </section>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href=""><img src="assets/X.png" alt="" width="50px"></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/IG.png" alt="" width="50px"></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/WSP.png" alt="" width="50px"></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/YT.png" alt="" width="50px"></a>
+            </li>
+        </ul>
+        <!--Redes sociales: X-IG-Wh-Youtube-->
+        <!--Lista de iconos vinculados a las redes sociales-->
+        <!--Párrafo con el copyright-->
+        <!--Autor de la página-->
+        <p>&copy;2024. Todos los derechos reservados</p>
+        <p>Página Web creada por Emanuel Olivera</p>
+
+
+    
+    </footer>
+</body>
+</html>
